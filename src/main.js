@@ -63,8 +63,6 @@ loadButton.addEventListener('click', async () => {
       }
       renderImages(posts);
       loaderDiv.className = 'loader visually-hidden';
-      // const rect = loadButton.getBoundingClientRect();
-      // scrollBy(rect.x, rect.y);
       page += 1;
     }
   } catch (error) {

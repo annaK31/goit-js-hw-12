@@ -5,7 +5,7 @@ import 'izitoast/dist/css/iziToast.min.css';
 import { galleryList, loadButton } from '../main';
 
 export async function renderImages(data) {
-  // galleryList.innerHTML = '';
+  
   console.log(data);
   const images = data.hits;
   if (images.length == 0) {
